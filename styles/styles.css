@@ -1,0 +1,72 @@
+:root{
+    --bs-color-principal: #00b8fc;
+    --bs-color-secundario: #212121;
+    --bs-color-terciario: #131312;
+}
+@font-face {
+    font-family: "icono";
+    src: url(../fuentes/fantastic.ttf);
+}
+@font-face {
+    font-family: "jxlight";
+    src: url(../fuentes/JosefinSans-ExtraLight.ttf);
+}
+@font-face {
+    font-family: "jlight";
+    src: url(../fuentes/JosefinSans-Light.ttf);
+}
+@font-face {
+    font-family: "jthin";
+    src: url(../fuentes/JosefinSans-Thin.ttf);
+}
+@font-face {
+    font-family: "jregular";
+    src: url(../fuentes/JosefinSans-Regular.ttf);
+}
+@font-face {
+    font-family: "jmedium";
+    src: url(../fuentes/JosefinSans-Medium.ttf);
+}
+@font-face {
+    font-family: "jsemi";
+    src: url(../fuentes/JosefinSans-SemiBold.ttf);
+}
+@font-face {
+    font-family: "jbold";
+    src: url(../fuentes/JosefinSans-Bold.ttf);
+}
+.primary{
+    color: var(--bs-color-principal);
+}
+.icono{
+    font-family: "icono";
+}
+.xlight{
+    font-family: "jxlight";
+}
+.light{
+    font-family: "jlight";
+}
+.thin{
+    font-family: "jthin";
+}
+.regular{
+    font-family: "jregular";
+}
+.medium{
+    font-family: "jmedium";
+}
+.semi{
+    font-family: "jsemi";
+}
+.bold{
+    font-family: "jbold";
+}
+.border-primary{
+    border-color: var(--bs-color-principal) !important;
+}
+.bgprimary{
+    background-color: var(--bs-color-principal);
+    outline: none !important;
+    border: none !important;
+}
