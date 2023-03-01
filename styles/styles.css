@@ -70,3 +70,47 @@
     outline: none !important;
     border: none !important;
 }
+.bgsecondary{
+    background-color: var(--bs-color-secundario);
+}
+.bgterciary{
+    background-color: var(--bs-color-terciario);
+    border: none;
+}
+
+
+.cardCOlor{
+    background-color: #131312;
+    min-width: none;
+    max-width: 33rem;
+}
+
+@media(min-width: 2000px){
+
+    .c1{
+        width: 50%;
+    }
+
+    .servi2{
+        width: 30% !important;
+    }
+
+
+}
+
+@media(max-width: 1200px){
+
+    .c1{
+        width: 100%;
+    }
+
+    .servi2{
+        width: 100% !important;
+    }
+
+    .cardCOlor{
+        width: 24rem !important;
+    }
+
+
+}
