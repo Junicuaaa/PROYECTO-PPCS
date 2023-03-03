@@ -124,3 +124,12 @@
 .active{
     color: var(--bs-color-principal) !important;
 }
+@keyframes animacion{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+#img1{
+    animation-timing-function: linear;
+    animation-duration: 3s;
+    animation-name: animacion;
+}
